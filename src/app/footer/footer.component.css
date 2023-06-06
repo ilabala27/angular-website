@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+
+.footer {
+    background-color: #e7b75f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store{
+    padding: 5px 10px;
+}
+.store img{
+    width:130px;
+    height: 38px;
+    padding: 2px 7px;
+    border-radius: 20px;
+}
+
+.medias i{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.terms p{
+    font-size: 12px;
+    padding: 10px
+}
+
+
+
+.medias i:hover{
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(146, 238, 209);
+   
+}
