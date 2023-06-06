@@ -13,6 +13,8 @@
     padding: 0px 100px;
 }
 
+/* ..........text content........... */
+
 .content1 h6 {
     font-size: 13px;
     margin: 10px 0px;
@@ -71,6 +73,7 @@
     }
 }
 
+/* ..........image content........... */
 .image {
     padding: 30px 25px;
 }
