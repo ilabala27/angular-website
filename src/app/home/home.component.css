@@ -1,5 +1,8 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 .header {
@@ -10,10 +13,12 @@
 }
 
 .content {
-    padding: 0px 100px;
+    padding: 0px 50px;
 }
 
 /* ..........text content........... */
+
+
 
 .content1 h6 {
     font-size: 13px;
@@ -21,18 +26,19 @@
 }
 
 .content1 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 44px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .content1 h4 {
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 25px;
+    margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .content2 a {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     background-color: rgb(247, 247, 75);
@@ -41,23 +47,24 @@
 
 }
 
-@media screen and (max-width:375px){
+
+@media screen and (max-width:675px){
 
     .content {
+        margin-top: 20px;
         padding: 0px 40px;
     }
-    
     .content1 h6 {
         font-size: 13px;
-        margin: 10px 0px;
     }
     
     .content1 h1 {
         margin-bottom: 15px;
+         font-size: 45px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .content1 h4 {
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -67,7 +74,7 @@
         border: 2px solid rgb(0, 0, 0);
         border-radius: 20px;
         background-color: rgb(247, 247, 75);
-        padding: 10px 25px;
+        padding: 10px 20px;
         font-size: 15px;
 
     }
@@ -94,18 +101,12 @@
     padding: 10px 50px;
 }
 
-@media screen and (max-width:928px){
-    .content2{
-        margin-bottom: 20px;
-     
-    }
-}
 
 @media screen and (max-width:425px){
     .cont h1 {
-        margin: 0;
-        padding: 0;
+        padding:0;
         font-weight: bolder;
+        width: 100%;
     }
     .content2{
         justify-content: center;
@@ -128,11 +129,6 @@
     min-height: 300px;
 }
 
-.carosal a span i{
-color: rgb(185, 216, 222);
-font-size: 60px;
-}
-
 
 
 .carousel-inner {
@@ -140,10 +136,17 @@ font-size: 60px;
     padding: 1px 60px;
 }
 
+.row-box{
+    padding: 0;
+}
+
 .card {
-    margin-bottom: 20px;
+    border: none;
+    margin:20px 0px;
     border-radius: 20px;
 }
+
+
 
 /*................. star.............. */
 
@@ -170,8 +173,11 @@ font-size: 60px;
     }
 
 .card-body {
+    border: 1px solid gray;
     text-align: center;
-    margin: 5px;
+    box-shadow: rgba(198, 198, 198, 0.5);
+    margin: 0;
+    padding: 15px 10px;
    
 }
 
@@ -193,7 +199,9 @@ font-size: 60px;
 }
 
 
+
 @media screen and (max-width:768px) {
+
     .carousel-inner {
         padding: 1px 60px;
     }
@@ -270,4 +278,76 @@ padding: 0;
     }
 }
 
+.textcont{
+    padding: 30px;
+}
 
+.textcont h1{
+    font-size: 35px;
+    padding: 10px 30px;
+}
+.textcont h6{
+    font-size: 18px;
+    padding: 20px 60px;
+}
+.content1b h1{
+    margin-bottom: 10px;
+    font-size: 33px;
+}
+
+.content1b h5{
+    margin: 20px 0px;
+    font-size: 17px;
+
+}
+
+.content2b a{
+    padding: 8px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+.section1{
+    padding: 50px 80px;
+    background-color: #f6f6f4;
+}
+
+.sec {
+ 
+    text-align: center;
+}
+.secs{
+    margin: 10px;
+}
+
+.sec .imgg{
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+
+.sec a {
+   
+    text-decoration: none;
+
+}
+
+.sec a h3{
+    font-size: 21px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.sec a:hover{
+text-decoration:underline black;
+
+}

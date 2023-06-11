@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 5px;
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1 i {
+    font-size: 30px;
+    color: #006570;
+
+}
+
+.cont2 i {
+    font-size: 23px;
+    color: #006570;
+}
+
+.cont2 .dropdown .btn {
+    border: none;
+    font-size: 14px;
+    color: #006570;
+}
+
+.dropdown-item {
+    text-align: center;
+    font-size: 13px;
+    color: #006570;
+}
+
+.cont3 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginform{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+.loginform h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.form-group{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-group label{
+    padding-bottom: 10px;
+}
+
+.form-group input{
+    margin-right:100px;
+padding: 6px 10px;
+border: 1px solid #006570;
+}
+.form-check{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.form-check .form-check-input{
+    border: 2px solid #006570;
+    font-size: 20px;
+}
+
+.form-check-label{
+    font-size: 15px;
+}
+
+form button{
+border-radius: 30px;
+    padding: 5px 20px;
+    text-align: center;
+    background-color:#006570;
+    color: white;
+}
+
+form button:hover{
+    background-color:#c0c0c0 ;
+
+}
+
+
+.ordiv{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordiv p{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    position: relative;
+    border: 2px solid #006570;
+    color: #8b8b8b;
+    background-color: #006570;
+}
+
+.ordiv hr{
+    border: 1px solid #006570;
+    position: absolute;
+    width: 20%;
+}
+
+.icon i{
+    padding: 10px 15px;
+    font-size: 27px;
+    color:#006570 ;
+
+}
+
+.icon i:hover{
+    padding: 10px 15px;
+    font-size: 27px;
+    color:#c0c0c0 ;
+
+}
+
+.loginform p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loginform p a{
+    padding-left: 5px;
+    color:#006570;
+}
+
+
+.footer .end{
+    margin-top: 40px;
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #006570;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width:768px){
+    .header {
+
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginform{
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+    
+    }
+
+    form button{
+        border-radius: 30px;
+            padding: 10px 20px;
+            text-align: center;
+            background-color:#006570;
+            color: white;
+            width: 100%;
+        }
+
+        .ordiv{
+            margin: 30px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ordiv p{
+            padding: 5px;
+            border-radius: 10px;
+            font-size: 14px;
+        
+            position: relative;
+            border: 2px solid gray;
+            color: #8b8b8b;
+            background-color: white;
+        }
+        
+        .ordiv hr{
+            border: 1px solid rgb(102, 102, 102);
+            position: absolute;
+            width: 80%;
+        }
+        
+
+    }   
+
+@media screen and (min-width:768px){
+    .ordiv p{
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 14px;
+    
+        position: relative;
+        border: 2px solid gray;
+        color: #8b8b8b;
+        background-color: white;
+    }
+    
+    .ordiv hr{
+        border: 1px solid rgb(102, 102, 102);
+        position: absolute;
+        width: 25%;
+    }
+}
